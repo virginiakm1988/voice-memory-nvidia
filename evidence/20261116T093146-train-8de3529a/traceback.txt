@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "GPU_WORKSPACE/repos/voice-memory-nvidia/project_demo/__main__.py", line 58, in main
+    result = pipeline.run(args.command, config, args.mode, out)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "GPU_WORKSPACE/repos/voice-memory-nvidia/project_demo/pipeline.py", line 181, in run
+    return train_text_lora(config, output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "GPU_WORKSPACE/repos/voice-memory-nvidia/project_demo/training.py", line 159, in train_text_lora
+    return train_lora(config,output,'text',convert(splits['train']),convert(splits['test'][:int(config.get('limit',3))]))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "GPU_WORKSPACE/repos/voice-memory-nvidia/project_demo/training.py", line 98, in train_lora
+    before=[predict(r) for r in heldout_rows]
+            ^^^^^^^^^^
+  File "GPU_WORKSPACE/repos/voice-memory-nvidia/project_demo/training.py", line 93, in predict
+    ids=model.generate(**batch,max_new_tokens=96,do_sample=False,**extra)
+        ^^^^^^^^^^^^^^
+  File "GPU_WORKSPACE/runtime/automodel-0.7-py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1976, in __getattr__
+    raise AttributeError(
+AttributeError: 'Qwen2ForCausalLM' object has no attribute 'generate'

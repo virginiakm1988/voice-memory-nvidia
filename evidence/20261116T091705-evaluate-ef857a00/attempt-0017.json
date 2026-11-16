@@ -1,0 +1,34 @@
+{
+  "attempt": 17,
+  "elapsed_seconds": 0.4220000000204891,
+  "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "response": {
+    "id": "chatcmpl-a31dbc52-1e85-4591-8caa-7a02007814b9",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "{\n  \"transcript\": \"please give me the flights from san francisco to washington d c\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "created": 1794820632,
+    "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 162,
+      "completion_tokens": 25,
+      "total_tokens": 187,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  }
+}

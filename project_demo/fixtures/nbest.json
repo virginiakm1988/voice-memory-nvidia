@@ -1,0 +1,17 @@
+{
+ "train": [
+  {"id":"train-1","domain":"developer","reference":"install NeMo for speech","hypotheses":["install new mo for speech","install NeMo for speech"]},
+  {"id":"train-2","domain":"meeting","reference":"turn right after the hall","hypotheses":["turn right after the hall","turn write after the hall"]},
+  {"id":"train-3","domain":"finance","reference":"revenue rose five percent","hypotheses":["revenue rose five percent","revenue rows five percent"]}
+ ],
+ "selection": [
+  {"id":"select-1","domain":"developer","reference":"use NeMo to train models","hypotheses":["use new mo to train models","use NeMo to train models"]},
+  {"id":"select-2","domain":"meeting","reference":"the right answer is two","hypotheses":["the right answer is two","the write answer is two"]},
+  {"id":"select-3","domain":"finance","reference":"the annual revenue increased","hypotheses":["the annual revenue increased","the annual review increased"]}
+ ],
+ "test": [
+  {"id":"test-1","domain":"developer","reference":"NeMo supports speech recognition","hypotheses":["new mo supports speech recognition","NeMo supports speech recognition"]},
+  {"id":"test-2","domain":"meeting","reference":"keep the right microphone","hypotheses":["keep the right microphone","keep the write microphone"]},
+  {"id":"test-3","domain":"finance","reference":"cash flow remains positive","hypotheses":["cash flow remains positive","cash flaw remains positive"]}
+ ]
+}

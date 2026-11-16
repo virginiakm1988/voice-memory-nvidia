@@ -1,0 +1,34 @@
+{
+  "project": "Voice Memory: NIM frozen corrector and held-out text-memory optimization",
+  "command": "evaluate",
+  "mode": "live",
+  "started_utc": "20261116T091705",
+  "status": "passed",
+  "config_sha256": "f31dbbad017f03f3d3d5f561595a57946b36e4d43ec577d6749b58831bbb3560",
+  "config": {
+    "data_dir": "runs/20261116T091303-prepare-60f77848",
+    "nim_model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "max_requests": 64,
+    "timeout_seconds": 120,
+    "limit": 3,
+    "iterations": 2,
+    "seed": 42,
+    "hf_model": "meta-llama/Llama-3.2-1B-Instruct",
+    "steps": 20,
+    "data_source": "hyporadise",
+    "domain": "atis",
+    "train_limit": 3,
+    "selection_limit": 3,
+    "dataset_revision": "9c896c358dd3bcd7e856af879b31e4353d2a0294"
+  },
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.15.0+cpu",
+    "transformers": null,
+    "nemo-automodel": null,
+    "nemo_toolkit": null,
+    "data-designer": null,
+    "huggingface-hub": "2.4.0"
+  },
+  "elapsed_seconds": 11.484999999869615
+}

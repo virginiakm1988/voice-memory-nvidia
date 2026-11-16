@@ -1,0 +1,35 @@
+{
+  "dataset": "PeacefulData/HyPoradise-v0",
+  "revision": "9c896c358dd3bcd7e856af879b31e4353d2a0294",
+  "domain": "atis",
+  "original_counts": {
+    "train": 3964,
+    "test": 809
+  },
+  "excluded_training_rows_overlapping_test": 39,
+  "counts": {
+    "train": 3,
+    "selection": 3,
+    "test": 3
+  },
+  "selected_ids": {
+    "train": [
+      "r80011ss",
+      "600014ss",
+      "4l00v1ss"
+    ],
+    "selection": [
+      "fa0074ss",
+      "iv0037ss",
+      "8kz074ss"
+    ],
+    "test": [
+      "i09067ss",
+      "g0w033ss",
+      "g0v012ss"
+    ]
+  },
+  "selection_rule": "seeded shuffle of official train only; official test untouched",
+  "data_sha256": "8202a7e2fd75c2b1c2332961dfa3822ae1312d0c221dfc45f1cd93c7e0727928",
+  "license": "MIT dataset card; verify original corpus terms"
+}

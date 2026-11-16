@@ -1,0 +1,52 @@
+{
+  "evidence_kind": "live_nim",
+  "static": {
+    "n": 3,
+    "wer": 0.08108108108108109,
+    "cer": 0.030864197530864196,
+    "one_best_wer": 0.08108108108108109,
+    "oracle_wer": 0.08108108108108109,
+    "recoverable_headroom_fraction": null,
+    "harmful_edit_rate_among_changed": 0.0,
+    "changed_utterances": 1,
+    "harmful_edits": 0
+  },
+  "optimized_memory": {
+    "n": 3,
+    "wer": 0.08108108108108109,
+    "cer": 0.030864197530864196,
+    "one_best_wer": 0.08108108108108109,
+    "oracle_wer": 0.08108108108108109,
+    "recoverable_headroom_fraction": null,
+    "harmful_edit_rate_among_changed": 0.0,
+    "changed_utterances": 1,
+    "harmful_edits": 0
+  },
+  "memory": [],
+  "optimizer_history": [
+    {
+      "iteration": 0,
+      "edit": {
+        "operation": "add",
+        "text": "please give me the flights from san francisco to washington d c",
+        "index": 0
+      },
+      "previous_wer": 0.05,
+      "candidate_wer": 0.35,
+      "accepted": false
+    },
+    {
+      "iteration": 1,
+      "edit": {
+        "operation": "add",
+        "text": "please give me the flights from san francisco to washington d c",
+        "index": 0
+      },
+      "previous_wer": 0.05,
+      "candidate_wer": 0.65,
+      "accepted": false
+    }
+  ],
+  "gate": "strict held-out WER",
+  "method_difference": "NIM corrector and WER gate; no claim of matching upstream semantic-gate results"
+}

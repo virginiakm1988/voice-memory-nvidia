@@ -1,0 +1,7 @@
+torch==2.15.0
+Pillow==13.0.0
+numpy==2.5.5
+huggingface-hub==2.4.0
+datasets==5.2.0
+soundfile==0.14.0
+scipy==1.18.1

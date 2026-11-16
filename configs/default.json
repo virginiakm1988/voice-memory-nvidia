@@ -1,0 +1,17 @@
+{
+  "data_dir": "data/nbest",
+  "nim_model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "max_requests": 64,
+  "timeout_seconds": 120,
+  "limit": 3,
+  "iterations": 2,
+  "seed": 42,
+  "hf_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "steps": 20,
+  "data_source": "hyporadise",
+  "domain": "atis",
+  "train_limit": 3,
+  "selection_limit": 3,
+  "dataset_revision": "9c896c358dd3bcd7e856af879b31e4353d2a0294",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+}

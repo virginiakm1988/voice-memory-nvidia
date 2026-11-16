@@ -1,0 +1,1 @@
+Live run manifests are real execution records. Fixture records validate mechanics only. Tiny sample scores are not paper-level benchmark claims. Check execution.json status, mode, data source and revision before comparing outputs.

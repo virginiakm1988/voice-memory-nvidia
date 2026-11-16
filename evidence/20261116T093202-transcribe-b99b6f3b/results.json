@@ -1,0 +1,11 @@
+{
+  "evidence_kind": "actual_nemo_speech_audio",
+  "model": "nvidia/parakeet-tdt-0.6b-v3",
+  "outputs": [
+    {
+      "audio": "assets/authored-example.wav",
+      "one_best": "Please let me finish explaining the problem before we decide."
+    }
+  ],
+  "scope": "one-best audio input, not original N-best oracle generation"
+}

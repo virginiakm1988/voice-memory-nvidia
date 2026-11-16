@@ -1,0 +1,34 @@
+{
+  "attempt": 18,
+  "elapsed_seconds": 0.4369999999180436,
+  "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "response": {
+    "id": "chatcmpl-5d4b88e0-e53f-4822-bd73-d5f35de89d02",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "{\n  \"transcript\": \"list all us air flights from miami to cleveland leaving on sunday afternoon\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "created": 1794820632,
+    "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 159,
+      "completion_tokens": 27,
+      "total_tokens": 186,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  }
+}

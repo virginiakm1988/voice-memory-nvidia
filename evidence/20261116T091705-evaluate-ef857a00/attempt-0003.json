@@ -1,0 +1,34 @@
+{
+  "attempt": 3,
+  "elapsed_seconds": 0.4369999999180436,
+  "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "response": {
+    "id": "chatcmpl-95584cf1-a024-4332-910d-870774faad8b",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "{\n  \"transcript\": \"is there a flight from nashville to houston in the evening tomorrow\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "created": 1794820625,
+    "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 146,
+      "completion_tokens": 25,
+      "total_tokens": 171,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 480">
+<rect width="1500" height="480" fill="#111"/>
+<rect width="1500" height="8" fill="#76b900"/>
+<text x="58" y="82" fill="white" font-family="Arial" font-size="43" font-weight="bold">Voice Memory</text>
+<text x="60" y="127" fill="#a5d94d" font-family="Arial" font-size="18">REUSABLE NVIDIA SDK RESEARCH DEMO</text>
+<rect x="60" y="200" width="240" height="135" rx="8" fill="#202020" stroke="#76b900" stroke-width="2"/><text x="78" y="237" fill="#76b900" font-family="Arial" font-size="19">01</text>
+<text x="78" y="277" dy="0" fill="white" font-family="Arial" font-size="23">ASR N-best</text>
+<path d="M305 268h31m-8 -6l8 6-8 6" fill="none" stroke="#76b900" stroke-width="3"/>
+<rect x="345" y="200" width="240" height="135" rx="8" fill="#202020" stroke="#76b900" stroke-width="2"/><text x="363" y="237" fill="#76b900" font-family="Arial" font-size="19">02</text>
+<text x="363" y="277" dy="0" fill="white" font-family="Arial" font-size="23">Frozen NIM model</text>
+<path d="M590 268h31m-8 -6l8 6-8 6" fill="none" stroke="#76b900" stroke-width="3"/>
+<rect x="630" y="200" width="240" height="135" rx="8" fill="#202020" stroke="#76b900" stroke-width="2"/><text x="648" y="237" fill="#76b900" font-family="Arial" font-size="19">03</text>
+<text x="648" y="277" dy="0" fill="white" font-family="Arial" font-size="23">Bounded memory</text>
+<text x="648" y="277" dy="28" fill="white" font-family="Arial" font-size="23">edit</text>
+<path d="M875 268h31m-8 -6l8 6-8 6" fill="none" stroke="#76b900" stroke-width="3"/>
+<rect x="915" y="200" width="240" height="135" rx="8" fill="#202020" stroke="#76b900" stroke-width="2"/><text x="933" y="237" fill="#76b900" font-family="Arial" font-size="19">04</text>
+<text x="933" y="277" dy="0" fill="white" font-family="Arial" font-size="23">Selection gate</text>
+<path d="M1160 268h31m-8 -6l8 6-8 6" fill="none" stroke="#76b900" stroke-width="3"/>
+<rect x="1200" y="200" width="240" height="135" rx="8" fill="#202020" stroke="#76b900" stroke-width="2"/><text x="1218" y="237" fill="#76b900" font-family="Arial" font-size="19">05</text>
+<text x="1218" y="277" dy="0" fill="white" font-family="Arial" font-size="23">Held-out test</text>
+<text x="60" y="418" fill="#b9b9b9" font-family="Arial" font-size="21">Inputs, model calls, outputs and limitations are recorded for every measured run.</text></svg>

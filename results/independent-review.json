@@ -1,0 +1,16 @@
+{
+  "reviewer": "build_agents_finance_repos",
+  "rounds": 2,
+  "unit_tests_passed": 5,
+  "source_review": "passed",
+  "gpu_evidence": "separate requirement; consult execution records",
+  "files_sha256": {
+    "project_demo/asr.py": "c2585b80faf06087da63f94c2599690578f427d06c57ba3593e5e8f510b43d8f",
+    "project_demo/common.py": "daec99dac3c335103e26c125b63d71a7b0180d2eb0f4b506f0e3db3c9e893584",
+    "project_demo/corpus.py": "6a40e902959696c14be97e9e175b6069f75796b7a7f631fc79b2dc1e0104faa1",
+    "project_demo/pipeline.py": "e646f8abf8bd5f3e588b19bc98dfd1ca8f5e92be146ce082cdbdd6484d50308f",
+    "project_demo/training.py": "abeabff4a9a8805d15a5d8baa01468e788ee932a2351833a33d53034683e1cb7",
+    "project_demo/__init__.py": "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003",
+    "project_demo/__main__.py": "ce4ae92e12b2c6dd21ad9d6409533e0adfa9cc429c568b8fa1d0f93aee0da019"
+  }
+}

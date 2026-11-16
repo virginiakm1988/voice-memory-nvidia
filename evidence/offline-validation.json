@@ -1,0 +1,55 @@
+[
+  {
+    "repo": "voice-memory-nvidia",
+    "args": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": "test_corpus_weighted_wer (test_method.VoiceMemoryTests.test_corpus_weighted_wer) ... ok\ntest_gate_accepts_improvement_rejects_harmful_edit (test_method.VoiceMemoryTests.test_gate_accepts_improvement_rejects_harmful_edit) ... ok\ntest_memory_edits_are_bounded (test_method.VoiceMemoryTests.test_memory_edits_are_bounded) ... ok\ntest_zero_headroom_is_not_division_by_zero (test_method.VoiceMemoryTests.test_zero_headroom_is_not_division_by_zero) ... ok\ntest_prompt_mask_never_swallows_changed_boundary (test_training_contract.TrainingContractTests.test_prompt_mask_never_swallows_changed_boundary) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.008s\n\nOK\n"
+  },
+  {
+    "repo": "voice-memory-nvidia",
+    "args": [
+      "-m",
+      "project_demo",
+      "prepare",
+      "--mode",
+      "fixture"
+    ],
+    "code": 0,
+    "stdout": "{\"status\": \"passed\", \"mode\": \"fixture\", \"run_dir\": \"runs\\\\20261116T093122-prepare-31c9a3df\", \"result\": {\"counts\": {\"train\": 3, \"selection\": 3, \"test\": 3}, \"source\": \"authored fixtures\", \"split_integrity\": \"passed\"}}\n",
+    "stderr": ""
+  },
+  {
+    "repo": "voice-memory-nvidia",
+    "args": [
+      "-m",
+      "project_demo",
+      "demo",
+      "--mode",
+      "fixture"
+    ],
+    "code": 0,
+    "stdout": "{\"status\": \"passed\", \"mode\": \"fixture\", \"run_dir\": \"runs\\\\20261116T093123-demo-3448f0e0\", \"result\": {\"evidence_kind\": \"deterministic_fixture\", \"static\": {\"n\": 3, \"wer\": 0.16666666666666666, \"cer\": 0.013513513513513514, \"one_best_wer\": 0.16666666666666666, \"oracle_wer\": 0.0, \"recoverable_headroom_fraction\": 0.0, \"harmful_edit_rate_among_changed\": null, \"changed_utterances\": 0, \"harmful_edits\": 0}, \"optimized_memory\": {\"n\": 3, \"wer\": 0.0, \"cer\": 0.0, \"one_best_wer\": 0.16666666666666666, \"oracle_wer\": 0.0, \"recoverable_headroom_fraction\": 1.0, \"harmful_edit_rate_among_changed\": 0.0, \"changed_utterances\": 1, \"harmful_edits\": 0}, \"memory\": [\"REPLACE new mo => NeMo\"], \"optimizer_history\": [{\"iteration\": 0, \"edit\": {\"operation\": \"add\", \"text\": \"REPLACE new mo => NeMo\"}, \"previous_wer\": 0.14285714285714285, \"candidate_wer\": 0.0, \"accepted\": true}, {\"iteration\": 1, \"edit\": {\"operation\": \"add\", \"text\": \"REPLACE right => write\"}, \"previous_wer\": 0.0, \"candidate_wer\": 0.07142857142857142, \"accepted\": false}], \"gate\": \"strict held-out WER\", \"method_difference\": \"NIM corrector and WER gate; no claim of matching upstream semantic-gate results\"}}\n",
+    "stderr": ""
+  },
+  {
+    "repo": "voice-memory-nvidia",
+    "args": [
+      "-m",
+      "project_demo",
+      "evaluate",
+      "--mode",
+      "fixture"
+    ],
+    "code": 0,
+    "stdout": "{\"status\": \"passed\", \"mode\": \"fixture\", \"run_dir\": \"runs\\\\20261116T093123-evaluate-26ff7d3e\", \"result\": {\"evidence_kind\": \"deterministic_fixture\", \"static\": {\"n\": 3, \"wer\": 0.16666666666666666, \"cer\": 0.013513513513513514, \"one_best_wer\": 0.16666666666666666, \"oracle_wer\": 0.0, \"recoverable_headroom_fraction\": 0.0, \"harmful_edit_rate_among_changed\": null, \"changed_utterances\": 0, \"harmful_edits\": 0}, \"optimized_memory\": {\"n\": 3, \"wer\": 0.0, \"cer\": 0.0, \"one_best_wer\": 0.16666666666666666, \"oracle_wer\": 0.0, \"recoverable_headroom_fraction\": 1.0, \"harmful_edit_rate_among_changed\": 0.0, \"changed_utterances\": 1, \"harmful_edits\": 0}, \"memory\": [\"REPLACE new mo => NeMo\"], \"optimizer_history\": [{\"iteration\": 0, \"edit\": {\"operation\": \"add\", \"text\": \"REPLACE new mo => NeMo\"}, \"previous_wer\": 0.14285714285714285, \"candidate_wer\": 0.0, \"accepted\": true}, {\"iteration\": 1, \"edit\": {\"operation\": \"add\", \"text\": \"REPLACE right => write\"}, \"previous_wer\": 0.0, \"candidate_wer\": 0.07142857142857142, \"accepted\": false}], \"gate\": \"strict held-out WER\", \"method_difference\": \"NIM corrector and WER gate; no claim of matching upstream semantic-gate results\"}}\n",
+    "stderr": ""
+  }
+]

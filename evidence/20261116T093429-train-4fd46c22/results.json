@@ -1,0 +1,48 @@
+{
+  "backend": "NVIDIA NeMo AutoModel + NVIDIA LoRA",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "modality": "text",
+  "steps": 4,
+  "patched_modules": 48,
+  "trainable_parameters": 540672,
+  "actual_weight_update": true,
+  "adapter_reload_exact": true,
+  "train_ids": [
+    "r80011ss",
+    "600014ss",
+    "4l00v1ss"
+  ],
+  "heldout_ids": [
+    "i09067ss",
+    "g0w033ss",
+    "g0v012ss"
+  ],
+  "heldout_exact_match_before": 0.0,
+  "heldout_exact_match_after": 0.0,
+  "losses": [
+    {
+      "step": 1,
+      "loss": 1.084587812423706,
+      "gradient_norm": 22.875
+    },
+    {
+      "step": 2,
+      "loss": 0.14191552996635437,
+      "gradient_norm": 15.0625
+    },
+    {
+      "step": 3,
+      "loss": 0.024812422692775726,
+      "gradient_norm": 3.265625
+    },
+    {
+      "step": 4,
+      "loss": 0.5685867071151733,
+      "gradient_norm": 11.75
+    }
+  ],
+  "checkpoint": "runs/20261116T093429-train-4fd46c22/adapter.pt",
+  "evidence_kind": "real_gpu_lora",
+  "peak_cuda_memory_bytes": 1515335168
+}

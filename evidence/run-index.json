@@ -1,0 +1,42 @@
+[
+  {
+    "run": "20261116T091303-prepare-60f77848",
+    "command": "prepare",
+    "status": "passed"
+  },
+  {
+    "run": "20261116T091608-train-08b48ab2",
+    "command": "train",
+    "status": "blocked"
+  },
+  {
+    "run": "20261116T091705-evaluate-ef857a00",
+    "command": "evaluate",
+    "status": "passed"
+  },
+  {
+    "run": "20261116T091834-train-c006fe42",
+    "command": "train",
+    "status": "failed"
+  },
+  {
+    "run": "20261116T092728-train-8d6ecb22",
+    "command": "train",
+    "status": "failed"
+  },
+  {
+    "run": "20261116T093146-train-8de3529a",
+    "command": "train",
+    "status": "failed"
+  },
+  {
+    "run": "20261116T093202-transcribe-b99b6f3b",
+    "command": "transcribe",
+    "status": "passed"
+  },
+  {
+    "run": "20261116T093429-train-4fd46c22",
+    "command": "train",
+    "status": "passed"
+  }
+]

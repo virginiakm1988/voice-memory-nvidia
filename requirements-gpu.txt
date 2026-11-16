@@ -1,0 +1,4 @@
+nemo-automodel[vlm,vlm-media]==0.7.0
+transformers==5.18.0
+peft==0.19.1
+# Resolved GPU torch recorded in evidence/runtime-lock.txt; install in an isolated CUDA environment.

@@ -1,0 +1,11 @@
+{
+  "before_wer": 5.513513513513513,
+  "after_wer": 0.10810810810810811,
+  "n": 3,
+  "source": "offline metrics from actual saved generations; no new inference",
+  "ids": [
+    "i09067ss",
+    "g0w033ss",
+    "g0v012ss"
+  ]
+}

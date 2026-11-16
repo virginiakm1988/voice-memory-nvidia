@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "voice-memory-nvidia"
+version = "0.1.0"
+description = "NVIDIA SDK research companion with explicit execution evidence"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+dependencies = []
+[project.optional-dependencies]
+cpu = ["torch==2.15.0", "Pillow==13.0.0", "numpy==2.5.5", "huggingface-hub==2.4.0", "soundfile==0.14.0", "scipy==1.18.1", "datasets==5.2.0"]
+designer = ["data-designer==0.9.3"]
+tutorial = ["ipywidgets>=8,<9", "matplotlib>=3.9,<4"]
+[project.scripts]
+project-demo = "project_demo.__main__:main"
+[tool.setuptools.packages.find]
+include = ["project_demo*"]
+[tool.setuptools.package-data]
+project_demo = ["fixtures/*.json", "fixtures/*.jsonl"]
